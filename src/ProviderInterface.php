@@ -15,9 +15,69 @@ namespace Mailery\Icon;
 interface ProviderInterface
 {
     /**
-     * @param string $name
      * @param array $options
      * @return string
      */
-    public function show(string $name, array $options = []): string;
+    public function menu(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function search(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function mailOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function bellOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function infoOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function settings(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function accountBox(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function logout(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function dotsHorizontal(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function dashboard(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function arrowRight(array $options = []): string;
+
 }

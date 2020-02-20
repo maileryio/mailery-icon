@@ -31,12 +31,36 @@ interface ProviderInterface
      * @return string
      */
 //    public function menu(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function search(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function search(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function plus(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function eye(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function pencil(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function delete(array $options = []): string;
 //
 //    /**
 //     * @param array $options
@@ -55,13 +79,13 @@ interface ProviderInterface
 //     * @return string
 //     */
 //    public function infoOutline(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function settings(array $options = []): string;
-//
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function settings(array $options = []): string;
+
 //    /**
 //     * @param array $options
 //     * @return string

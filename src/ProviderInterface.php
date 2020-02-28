@@ -48,6 +48,36 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
+    public function plusCircle(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function plusCircleOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function heartOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function checkCircle(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function checkCircleOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
     public function eye(array $options = []): string;
 
     /**

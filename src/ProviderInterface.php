@@ -97,6 +97,12 @@ interface ProviderInterface
      * @return string
      */
     public function brand(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function chevronDown(array $options = []): string;
 //
 //    /**
 //     * @param array $options

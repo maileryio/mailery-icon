@@ -103,59 +103,23 @@ interface ProviderInterface
      * @return string
      */
     public function chevronDown(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function mailOutline(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function bellOutline(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function infoOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function chevronRight(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function chevronLeft(array $options = array()): string;
 
     /**
      * @param array $options
      * @return string
      */
     public function settings(array $options = []): string;
-
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function accountBox(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function logout(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function dotsHorizontal(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function dashboard(array $options = []): string;
-//
-//    /**
-//     * @param array $options
-//     * @return string
-//     */
-//    public function arrowRight(array $options = []): string;
 
 }

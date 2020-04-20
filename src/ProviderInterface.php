@@ -122,4 +122,16 @@ interface ProviderInterface
      */
     public function settings(array $options = []): string;
 
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function accountMultiple(array $options = array()): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function accountMultipleOutline(array $options = array()): string;
+
 }

@@ -114,7 +114,7 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
-    public function chevronLeft(array $options = array()): string;
+    public function chevronLeft(array $options = []): string;
 
     /**
      * @param array $options
@@ -126,12 +126,11 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
-    public function accountMultiple(array $options = array()): string;
+    public function accountMultiple(array $options = []): string;
 
     /**
      * @param array $options
      * @return string
      */
-    public function accountMultipleOutline(array $options = array()): string;
-
+    public function accountMultipleOutline(array $options = []): string;
 }

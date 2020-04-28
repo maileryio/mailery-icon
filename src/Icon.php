@@ -1,9 +1,19 @@
 <?php
 
+declare(strict_types=1);
+
+/**
+ * Mailery Icon module
+ * @link      https://github.com/maileryio/mailery-icon
+ * @package   Mailery\Icon
+ * @license   BSD-3-Clause
+ * @copyright Copyright (c) 2020, Mailery (https://mailery.io/)
+ */
+
 namespace Mailery\Icon;
 
-use Yiisoft\Widget\Widget;
 use Yiisoft\Strings\Inflector;
+use Yiisoft\Widget\Widget;
 
 class Icon extends Widget
 {
@@ -29,6 +39,7 @@ class Icon extends Widget
 
     /**
      * @param ProviderInterface $provider
+     * @param Inflector $inflector
      */
     public function __construct(ProviderInterface $provider, Inflector $inflector)
     {
@@ -43,16 +54,18 @@ class Icon extends Widget
     public function name(string $name): self
     {
         $this->name = $name;
+
         return $this;
     }
 
     /**
      * @param array $options
-     * @return \self
+     * @return self
      */
     public function options(array $options): self
     {
         $this->options = $options;
+
         return $this;
     }
 

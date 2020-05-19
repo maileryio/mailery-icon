@@ -18,6 +18,18 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
+    public function magnify(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function close(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
     public function users(array $options = []): string;
 
     /**
@@ -25,12 +37,6 @@ interface ProviderInterface
      * @return string
      */
     public function dashboard(array $options = []): string;
-
-    /**
-     * @param array $options
-     * @return string
-     */
-//    public function menu(array $options = []): string;
 
     /**
      * @param array $options

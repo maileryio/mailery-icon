@@ -48,6 +48,18 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
+    public function clock(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function clockOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
     public function plus(array $options = []): string;
 
     /**

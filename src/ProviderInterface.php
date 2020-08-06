@@ -151,4 +151,10 @@ interface ProviderInterface
      * @return string
      */
     public function accountMultipleOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function rocket(array $options = []): string;
 }

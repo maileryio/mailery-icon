@@ -156,5 +156,5 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
-    public function rocket(array $options = []): string;
+    public function campaign(array $options = []): string;
 }

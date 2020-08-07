@@ -42,6 +42,12 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
+    public function dashboardOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
     public function search(array $options = []): string;
 
     /**
@@ -157,4 +163,16 @@ interface ProviderInterface
      * @return string
      */
     public function campaign(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function emailMultiple(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function emailMultipleOutline(array $options = []): string;
 }

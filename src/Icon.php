@@ -74,7 +74,7 @@ class Icon extends Widget
      */
     protected function run(): string
     {
-        $name = $this->inflector->variablize($this->name);
+        $name = $this->inflector->toCamelCase($this->name);
         if (!method_exists($this->provider, $name)) {
             throw new \InvalidArgumentException('Invalid icon name "' . $name . '"');
         }

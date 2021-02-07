@@ -175,4 +175,10 @@ interface ProviderInterface
      * @return string
      */
     public function emailMultipleOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function at(array $options = array()): string;
 }

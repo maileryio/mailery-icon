@@ -30,6 +30,12 @@ interface ProviderInterface
      * @param array $options
      * @return string
      */
+    public function cancel(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
     public function users(array $options = []): string;
 
     /**
@@ -97,6 +103,12 @@ interface ProviderInterface
      * @return string
      */
     public function checkCircleOutline(array $options = []): string;
+
+    /**
+     * @param array $options
+     * @return string
+     */
+    public function helpCircleOutline(array $options = []): string;
 
     /**
      * @param array $options
